@@ -100,6 +100,8 @@ const getZodiac = (dateStr) => {
 console.log(getZodiac("04-11")); 
 console.log(getZodiac("12-25")); 
 console.log(getZodiac("07-25"));
+console.log(getZodiac("09-15"));
+
 
 //-------------------------------------------------------------------------------------
 console.log("Task-4-6");
