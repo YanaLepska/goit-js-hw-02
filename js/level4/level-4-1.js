@@ -105,3 +105,18 @@ console.log(getZodiac("09-15"));
 
 //-------------------------------------------------------------------------------------
 console.log("Task-4-6");
+
+const sumOfDevides = number => {
+  let arrayNum = [];
+  for (let i = 1; i <= number; i++) {
+    if (number % i === 0) {
+      arrayNum.push(i);
+    }
+  }
+  console.log(arrayNum);
+  const sum = arrayNum.reduce((acc, item) => {return acc + item }, 0);
+  return sum;
+};
+
+console.log(sumOfDevides(15));
+console.log(sumOfDevides(121));
