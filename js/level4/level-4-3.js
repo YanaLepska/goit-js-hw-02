@@ -11,7 +11,7 @@ const delDouble = array => {
 console.log(delDouble([15, 298, 35, 74, 19, 15, 74]));
 //-------------------------------------------------------------------------------------
 console.log("Task-4-2");
-console.log();
+
 
 const delDoubleTwo = array => {
     let newArray = [];
