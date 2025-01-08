@@ -26,4 +26,4 @@ const randomNumber = (N,array) => {
     return newArray;
 };
 
-console.log(randomNumber(20,[8,40]));
+console.log(randomNumber(10,[8,40]));
